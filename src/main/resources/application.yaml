@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: SpringModul3
+
+  datasource:
+    url: jdbc:postgresql://localhost:5435/contacts
+    username: postgres
+    password: postgres
+    hikari:
+      schema: contacts_schema
